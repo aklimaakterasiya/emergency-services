@@ -1,0 +1,110 @@
+body {
+    background-color: rgba(245, 255, 246, 1);
+    margin: 0;
+    padding: 62px;
+    /* width: 1920px; */
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+    background: linear-gradient(90.00deg, rgba(1.25, 49.64, 34.61, 1), rgba(0, 103, 71, 1) 50%, rgba(1, 50, 35, 1) 100%);
+    color: white;
+    text-align: center;
+    padding: 92px 0;
+}
+
+.national {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 32px;
+    /* width: 580px; */
+
+}
+
+img {
+    width: 32px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.national-emerjency {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.national h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(17, 17, 17, 1);
+}
+
+.national p {
+    color: rgba(92, 92, 92, 1);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.national h3 {
+    color: rgba(17, 17, 17, 1);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid rgba(212, 214, 213, 1);
+    width: 100%;
+    border-radius: 8px;
+    gap: 6px;
+    padding: 16px;
+}
+
+.btn {
+    border: 1px solid rgba(255, 255, 255, 1);
+    width: 100%;
+    border-radius: 8px;
+    gap: 6px;
+    padding: 16px;
+    background-color: rgba(0, 166, 62, 1);
+}
+
+.flex {
+    display: flex;
+    gap: 32px;
+}
+
+.buton {
+    background-color: rgba(242, 242, 242, 1);
+    border-radius: 9999px;
+    padding: 6px 16px;
+    border: none;
+    margin-bottom: 64px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(92, 92, 92, 1);
+    width: 53px;
+}
+
+/* small device */
+@media screen and (max-width:576px) {
+
+    .national-emerjency {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* medium device  */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .national-emerjency {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
