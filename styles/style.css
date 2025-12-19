@@ -97,14 +97,14 @@ img {
 
     .national-emerjency {
         grid-template-columns: repeat(1, 1fr);
+    }
 
-        body {
-            padding: 15px;
-        }
+    body {
+        padding: 15px;
+    }
 
-        .national {
-            padding: 20px;
-        }
+    .national {
+        padding: 20px;
     }
 }
 
